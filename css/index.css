@@ -20,6 +20,6 @@
 .fire-join dl dd { margin: 0; font-size: 1.3rem; color: #666; margin-top: 1.25rem; }
 .fire-link { padding: 0 2.0rem; }
 .fire-link dt { font-size: 1.1rem; color: #333; padding-bottom: 1.4rem; border-bottom: 1px solid #d8d8d8; }
-.fire-link dd { font-size: 1.1rem; color: #999; }
+.fire-link dd { font-size: 1.1rem; color: #999; margin: 0; }
 .fire-link dd span { font-size: 1.1rem; color: #b4b4b4; }
 .fire-copy { font-size: 1.0rem; color: #b4b4b4; padding: 1.0rem 3.0rem; background-color: #f4f4f4; }
