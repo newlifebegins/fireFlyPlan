@@ -1,0 +1,25 @@
+.fire-nav { height: 5.5rem; background-color: #fff; }
+/*.fire-nav .title { height: 5.5rem; line-height: 5.5rem; }*/
+.fire-nav .icon.pull-left { line-height: initial; padding: 1.0rem .1rem 1.1rem; }
+.fire-nav .icon.pull-right { line-height: initial; padding: 1.9rem 2.1rem 2.0rem; background-color: #ccc; right: -.5rem; }
+.fire-nav .icon.pull-left img { height: 3.4rem; display: block; }
+.fire-nav .icon.pull-right img { height: 1.6rem; display: block; }
+.bar-nav~.content { top: 5.5rem; }
+/*.fire-content { padding-top: 5.5rem; }*/
+.fire-content .banner img { display: block; width: 100%; }
+.fire-content .fire-text { text-align: center; }
+.fire-content .fire-text h3 { font-size: 2rem; color: #333; }
+.fire-content .fire-text p { font-size: 1.7rem; color: #666; }
+.fire-content .fire-text h4 { font-size: 1.8rem; color: #666; }
+.fire-content .fire-btn a { display: block; width: 9.7rem; height: 3.3rem; text-align: center; line-height: 3.3rem; margin: 0 auto; border:1px solid #d4af31; background-color: #fff; font-size: 1.6rem; color:#9f7d08; }
+.fire-join { padding: 3.5rem 6.0rem; background-color: #f3f4f6; margin-top: 3.4rem; }
+.fire-join h1 { text-align: center; font-size: 2.0rem; color: #333; }
+.fire-join dl { text-align: center; font-size: 1.3rem; color: #666; }
+.fire-join dl dt { width: 4.3rem; height: 4.3rem; line-height: 4.3rem; border:2px solid #525252; border-radius:100%; margin: 0 auto; }
+.fire-join dl dt img { vertical-align: middle; }
+.fire-join dl dd { margin: 0; font-size: 1.3rem; color: #666; margin-top: 1.25rem; }
+.fire-link { padding: 0 2.0rem; }
+.fire-link dt { font-size: 1.1rem; color: #333; padding-bottom: 1.4rem; border-bottom: 1px solid #d8d8d8; }
+.fire-link dd { font-size: 1.1rem; color: #999; }
+.fire-link dd span { font-size: 1.1rem; color: #b4b4b4; }
+.fire-copy { font-size: 1.0rem; color: #b4b4b4; padding: 1.0rem 3.0rem; background-color: #f4f4f4; }
