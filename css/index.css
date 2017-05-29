@@ -23,3 +23,8 @@
 .fire-link dd { font-size: 1.1rem; color: #999; margin: 0; }
 .fire-link dd span { font-size: 1.1rem; color: #b4b4b4; }
 .fire-copy { font-size: 1.0rem; color: #b4b4b4; padding: 1.0rem 3.0rem; background-color: #f4f4f4; }
+.hide-nav { position: absolute; top: 5.5rem; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 99999; display: none; }
+.hide-nav ul { list-style: none; text-align: center; background-color: #fff; margin: 0; padding: 0; }
+.hide-nav ul li { border-bottom: 1px solid #dedede; padding: 1.5rem 0; }
+.hide-nav ul a { font-size: 1.5rem; color: #999; }
+.hide-nav ul li.on a { font-size: 1.5rem; color: #333; font-weight: bold; }
