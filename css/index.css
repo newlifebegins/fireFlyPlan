@@ -1,7 +1,8 @@
 .fire-nav { height: 5.5rem; background-color: #fff; }
-/*.fire-nav .title { height: 5.5rem; line-height: 5.5rem; }*/
+.fire-nav .title { height: 5.5rem; line-height: 5.5rem; font-size: 1.6rem; color: #333; }
 .fire-nav .icon.pull-left { line-height: initial; padding: 1.0rem .1rem 1.1rem; }
 .fire-nav .icon.pull-right { line-height: initial; padding: 1.9rem 2.1rem 2.0rem; background-color: #ccc; right: -.5rem; }
+.fire-nav .icon.icon-left { font-size: 3rem; color: #333; }
 .fire-nav .icon.pull-left img { height: 3.4rem; display: block; }
 .fire-nav .icon.pull-right img { height: 1.6rem; display: block; }
 .bar-nav~.content { top: 5.5rem; }
