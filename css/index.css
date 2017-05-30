@@ -67,9 +67,11 @@
 .object-content dd { margin-left: 0; text-align: center; font-size: 1.4rem; color: #666; }
 
 
-.joinus-content h1 { text-align: center; font-size: 2.0rem; color: #333; }
+.joinus-content h1 { text-align: center; font-size: 2.0rem; color: #333; position: relative; }
+.joinus-content h1:before { content: ''; width: 8.0rem; height: .1rem; background: url(../images/plan/6FE9E57B-FC51-443F-B8EB-1EE5E3079F5D@2x.png) no-repeat center; position: absolute; left: 3.5rem; top: 50%; margin-top: -.05rem; }
+.joinus-content h1:after { content: ''; width: 8.0rem; height: .1rem; background: url(../images/plan/7DE2B70C-A3D0-4899-AB29-65B4C06B3C9D@2x.png) no-repeat center; position: absolute; right: 3.5rem; top: 50%; margin-top: -.05rem; }
 .joinus-content h2 { text-align: center; font-size: 1.3rem; color: #999; }
 .joinus-content dl { padding: 0 1.7rem; }
-.joinus-content dt { font-size: 1.4rem; color: #333; }
+.joinus-content dt { font-size: 1.4rem; color: #333; margin: 1.0rem 0; }
 .joinus-content dd { width: 100%; margin-left: 0; }
 .joinus-content dd input[type="text"],.joinus-content dd select { width: 100%; height: 3.6rem; border-radius: .25rem; border:1px solid #37a338; font-size: 1.2rem; color: #999; text-indent: .25rem; }
