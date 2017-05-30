@@ -29,3 +29,47 @@
 .hide-nav ul li { border-bottom: 1px solid #dedede; padding: 1.5rem 0; }
 .hide-nav ul a { font-size: 1.5rem; color: #999; }
 .hide-nav ul li.on a { font-size: 1.5rem; color: #333; font-weight: bold; }
+
+.fire-plan-text { width: 95%; margin: 0 auto; background:#ffffff; box-shadow:2px 2px 6px 0 rgba(161,161,161,0.50); padding: 3.5rem 5.0rem; position: relative; top: -1.5rem; }
+.fire-plan-text .plan-icon1 { background: url(../images/plan/D4468355-FC5F-49C3-944A-57244E651AA0@2x.png) no-repeat left center; text-align: left; background-size: 2.0rem; padding-left: 3.0rem; }
+.fire-plan-text .plan-icon2 { background: url(../images/plan/3242D61C-F09F-43EC-9396-CA77982C560D@2x.png) no-repeat left center; text-align: left; background-size: 2.0rem; padding-left: 3.0rem; }
+.fire-plan-text .plan-icon3 { background: url(../images/plan/899B1598-30F4-429F-A5D9-593870C8E937@2x.png) no-repeat left center; text-align: left; background-size: 2.0rem; padding-left: 3.0rem; }
+.fire-plan-text .plan-icon4 { background: url(../images/plan/1468E0D1-1E37-4919-BAB9-DBC38F02AE46@2x.png) no-repeat left center; text-align: left; background-size: 2.0rem; padding-left: 3.0rem; }
+.fire-plan-text .plan-icon5 { background: url(../images/plan/6BA3A96A-F91E-495F-8D0B-C143DCE7B346@2x.png) no-repeat left center; text-align: left; background-size: 2.0rem; padding-left: 3.0rem; }
+.fire-plan-text .plan-icon6 { background: url(../images/plan/86C20391-728C-4BF1-A0E5-FF2BF978DD28@2x.png) no-repeat left center; text-align: left; background-size: 2.0rem; padding-left: 3.0rem; }
+.fire-plan-text h4 { position: relative; }
+.fire-plan-text h4:before { content: ''; width: 8.0rem; height: .1rem; background: url(../images/plan/6FE9E57B-FC51-443F-B8EB-1EE5E3079F5D@2x.png) no-repeat center; position: absolute; left: 0; top: 50%; margin-top: -.05rem; }
+.fire-plan-text h4:after { content: ''; width: 8.0rem; height: .1rem; background: url(../images/plan/7DE2B70C-A3D0-4899-AB29-65B4C06B3C9D@2x.png) no-repeat center; position: absolute; right: 0; top: 50%; margin-top: -.05rem; }
+
+
+.explain-join { background-color: transparent; }
+.explain-join .explain1 { width: 10.5rem; height: 11.9rem; background: url(../images/explain/ABD90C13-04A9-46A9-B06D-74E29869708C@2x.png) no-repeat center; margin: 0 auto; background-size: cover; margin-top: 3.0rem; }
+.explain-join .explain2 { width: 10.5rem; height: 11.9rem; background: url(../images/explain/79F95B7E-BCD9-4FD3-A4E2-C59D04BA443C@2x.png) no-repeat center; margin: 0 auto; background-size: cover; margin-top: 3.0rem; }
+.explain-join .explain3 { width: 10.5rem; height: 11.9rem; background: url(../images/explain/CB7D9CBE-B1DE-4C0D-A087-5785B6034232@2x.png) no-repeat center; margin: 0 auto; background-size: cover; margin-top: 3.0rem; }
+.explain-join .explain4 { width: 10.5rem; height: 11.9rem; background: url(../images/explain/BCAD99F3-87DA-4DB3-8C90-FAC39AC7C85D@2x.png) no-repeat center; margin: 0 auto; background-size: cover; margin-top: 3.0rem; }
+.explain-join dl { margin-top: 3.0rem; }
+.explain-join dl dt { border: none; padding-top: 3.0rem; }
+.explain-join dl dd { font-size: 1.4rem; color: #fff; margin-top: 3.5rem; }
+
+
+.income-content h1 { text-align: center; font-size: 2.0rem; color: #333; }
+.income-content h2 { text-align: center; font-size: 1.3rem; color: #999; }
+.income-content dl { padding: 0 3.0rem; }
+.income-content dt { float: left; color:#6ac068; font-size: 3.4rem; }
+.income-content dd { margin-left: 5.0rem; }
+.income-content dd h6 { color:#333; font-size: 1.6rem; margin: 0; }
+.income-content dd p { color:#989898; font-size: 1.3rem; margin: 0; margin-top: .9rem; }
+.flex-content dt { float: none; display: inline-block; width: 8.9rem; height: 8.9rem; border-radius: 50%; background-color: #fff; }
+.flex-content dt img { width: 7.8rem; display: block; margin: .5rem auto 0; }
+.flex-content dd { float: none; display: inline-block; font-size: 1.5rem; color: #333; margin-left: 0; vertical-align: top; }
+.flex-content dd span { font-size: 2.0rem; color: #c8c8c8; }
+.object-content dt { float: none; color:#54a642; font-size: 3rem; text-align: center; }
+.object-content dd { margin-left: 0; text-align: center; font-size: 1.4rem; color: #666; }
+
+
+.joinus-content h1 { text-align: center; font-size: 2.0rem; color: #333; }
+.joinus-content h2 { text-align: center; font-size: 1.3rem; color: #999; }
+.joinus-content dl { padding: 0 1.7rem; }
+.joinus-content dt { font-size: 1.4rem; color: #333; }
+.joinus-content dd { width: 100%; margin-left: 0; }
+.joinus-content dd input[type="text"],.joinus-content dd select { width: 100%; height: 3.6rem; border-radius: .25rem; border:1px solid #37a338; font-size: 1.2rem; color: #999; text-indent: .25rem; }
