@@ -2,7 +2,7 @@
 .fire-nav .title { height: 5.5rem; line-height: 5.5rem; font-size: 1.6rem; color: #333; }
 .fire-nav .icon.pull-left { line-height: initial; padding: 1.0rem .1rem 1.1rem; }
 .fire-nav .icon.pull-right { line-height: initial; padding: 1.9rem 2.1rem 2.0rem; right: -.5rem; }
-.fire-nav .icon.icon-left { font-size: 2.5rem; color: #333; }
+.fire-nav .icon.icon-left { font-size: 2.0rem; color: #333; padding-top: 1.75rem; padding-bottom: 1.75rem; }
 .fire-nav .icon.pull-left img { height: 3.4rem; display: block; }
 .fire-nav .icon.pull-right img { height: 1.6rem; display: block; }
 .bar-nav~.content { top: 5.5rem; }
