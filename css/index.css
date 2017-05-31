@@ -1,4 +1,4 @@
-.fire-nav { height: 5.5rem; background-color: #fff; }
+.fire-nav { height: 5.5rem; background-color: #fff; border: .05rem solid #dedede; }
 .fire-nav .title { height: 5.5rem; line-height: 5.5rem; font-size: 1.6rem; color: #333; }
 .fire-nav .icon.pull-left { line-height: initial; padding: 1.0rem .1rem 1.1rem; }
 .fire-nav .icon.pull-right { line-height: initial; padding: 1.9rem 2.1rem 2.0rem; background-color: #ccc; right: -.5rem; }
@@ -12,9 +12,10 @@
 .fire-content .fire-text h3 { font-size: 2rem; color: #333; }
 .fire-content .fire-text p { font-size: 1.7rem; color: #666; }
 .fire-content .fire-text h4 { font-size: 1.8rem; color: #666; }
+.fire-content .fire-btn { padding: 2.8rem 0; }
 .fire-content .fire-btn a { display: block; width: 9.7rem; height: 3.3rem; text-align: center; line-height: 3.3rem; margin: 0 auto; border:1px solid #d4af31; background-color: #fff; font-size: 1.6rem; color:#9f7d08; }
-.fire-join { padding: 3.5rem 6.0rem; background-color: #f3f4f6; margin-top: 3.4rem; }
-.fire-join h1 { text-align: center; font-size: 2.0rem; color: #333; }
+.fire-join { padding: 3.5rem 2.0rem; background-color: #f3f4f6; margin-top: 3.4rem; }
+.fire-join h1 { text-align: center; font-size: 2.0rem; color: #333; margin: 0; }
 .fire-join dl { text-align: center; font-size: 1.3rem; color: #666; }
 .fire-join dl dt { width: 4.3rem; height: 4.3rem; line-height: 4.3rem; border:2px solid #525252; border-radius:100%; margin: 0 auto; }
 .fire-join dl dt img { vertical-align: middle; }
@@ -50,19 +51,25 @@
 .explain-join dl { margin-top: 3.0rem; }
 .explain-join dl dt { border: none; padding-top: 3.0rem; }
 .explain-join dl dd { font-size: 1.4rem; color: #fff; margin-top: 3.5rem; }
-
+.explain-list dl { margin: 2.25rem 0 0; }
+.explain-list dt { font-size: 1.5rem; color: #333; font-weight: bold; }
+.explain-list dd h4 { font-size: 1.2rem; color: #333; font-weight: normal; margin: 1.0rem 0; }
+.explain-list dd p { margin: 0; line-height: 2.1rem; }
 
 .income-content h1 { text-align: center; font-size: 2.0rem; color: #333; }
 .income-content h2 { text-align: center; font-size: 1.3rem; color: #999; }
-.income-content dl { padding: 0 3.0rem; }
+.income-content dl { padding: 0 2.0rem; }
 .income-content dt { float: left; color:#6ac068; font-size: 3.4rem; }
 .income-content dd { margin-left: 5.0rem; }
 .income-content dd h6 { color:#333; font-size: 1.6rem; margin: 0; }
 .income-content dd p { color:#989898; font-size: 1.3rem; margin: 0; margin-top: .9rem; }
+.flex-content dl { margin: 0; padding: 1.4rem 2.0rem; }
 .flex-content dt { float: none; display: inline-block; width: 8.9rem; height: 8.9rem; border-radius: 50%; background-color: #fff; }
 .flex-content dt img { width: 7.8rem; display: block; margin: .5rem auto 0; }
-.flex-content dd { float: none; display: inline-block; font-size: 1.5rem; color: #333; margin-left: 0; vertical-align: top; }
-.flex-content dd span { font-size: 2.0rem; color: #c8c8c8; }
+.flex-content dd { float: none; display: inline-block; font-size: 1.5rem; color: #333; margin-left: 0; vertical-align: top; padding: 1.0rem 2rem 0; position: relative; }
+.flex-content dd span { font-size: 2.0rem; color: #c8c8c8; position: absolute; left: 0; top: 0.8rem; }
+.object-content h2 { position: relative; padding-bottom: 2.0rem; }
+.object-content h2:after { content: ''; width: 80%; height: .05rem; background: #cecece; position: absolute; bottom: 0; left: 50%; margin-left: -40%; }
 .object-content dt { float: none; color:#54a642; font-size: 3rem; text-align: center; }
 .object-content dd { margin-left: 0; text-align: center; font-size: 1.4rem; color: #666; }
 
@@ -75,3 +82,6 @@
 .joinus-content dt { font-size: 1.4rem; color: #333; margin: 1.0rem 0; }
 .joinus-content dd { width: 100%; margin-left: 0; }
 .joinus-content dd input[type="text"],.joinus-content dd select { width: 100%; height: 3.6rem; border-radius: .25rem; border:1px solid #37a338; font-size: 1.2rem; color: #999; text-indent: .25rem; }
+.joinus-content dd .col-50 { padding-top: 1.5rem; }
+.joinus-content dd label { font-size: 1.3rem; color: #666; }
+.joinus-content dd input[type="checkbox"] { width: 1.6rem; height: 1.6rem; border: 1px solid #cecece; border-radius: .25px; background: #fff; margin-right: 1.0rem; vertical-align: top; }
