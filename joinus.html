@@ -11,6 +11,41 @@
 	<link rel="stylesheet" href="css/index.css">
 	<script type='text/javascript' src='https://g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='https://g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <style>
+        .fire-nav { height: 2.5rem; background-color: #fff; border: .05rem solid #dedede; }
+        .fire-nav .title { height: 2.5rem; line-height: 2.5rem; font-size: .8rem; color: #333; }
+        .fire-nav .icon.pull-left { line-height: initial; padding: .5rem .1rem .5rem; }
+        .fire-nav .icon.pull-right { line-height: initial; padding: .9rem 1.0rem 1.0rem; right: -.5rem; }
+        .fire-nav .icon.icon-left { font-size: 1.0rem; color: #333; padding-top: .7rem; padding-bottom: .7rem; }
+        .fire-nav .icon.pull-left img { height: 1.7rem; display: block; }
+        .fire-nav .icon.pull-right img { height: .8rem; display: block; }
+        .hide-nav { position: absolute; top: 2.5rem; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 99999; display: none; }
+        .hide-nav ul { list-style: none; text-align: center; background-color: #fff; margin: 0; padding: 0; }
+        .hide-nav ul li { border-bottom: 1px solid #dedede; }
+        .hide-nav ul a { display: block; padding: .7rem 0; font-size: .7rem; color: #999; }
+        .hide-nav ul li.on a { font-size: .7rem; color: #333; font-weight: bold; }
+        .fire-content .fire-btn { padding: 1.4rem 0; }
+        .content { top: 0rem; padding-top: 2.5rem; }
+        .fire-content .fire-btn a { display: block; width: 4.8rem; height: 1.6rem; text-align: center; line-height: 1.6rem; margin: 0 auto; border:1px solid #d4af31; background-color: #fff; font-size: .8rem; color:#9f7d08; }
+
+        .joinus-content h1 { text-align: center; font-size: 1.0rem; color: #333; position: relative; }
+        .joinus-content h1:before { content: ''; width: 4.0rem; height: .05rem; background: url(../images/plan/6FE9E57B-FC51-443F-B8EB-1EE5E3079F5D@2x.png) no-repeat center; position: absolute; left: 1.7rem; top: 50%; margin-top: -.05rem; }
+        .joinus-content h1:after { content: ''; width: 4.0rem; height: .05rem; background: url(../images/plan/7DE2B70C-A3D0-4899-AB29-65B4C06B3C9D@2x.png) no-repeat center; position: absolute; right: 1.7rem; top: 50%; margin-top: -.05rem; }
+        .joinus-content h2 { text-align: center; font-size: .6rem; color: #999; }
+        .joinus-content dl { padding: 0 .8rem; }
+        .joinus-content dt { font-size: .7rem; color: #333; margin: .5rem 0; }
+        .joinus-content dd { width: 100%; margin-left: 0; }
+        .joinus-content dd input[type="text"],.joinus-content dd select { width: 100%; height: 1.8rem; border-radius: .25rem; border:1px solid #37a338; font-size: .6rem; color: #999; text-indent: .25rem; }
+        .joinus-content dd select { appearance:none; -webkit-appearance:none; background: url("images/C119A397-7C19-48C0-9B41-7053563A7E00@1x.png") no-repeat scroll 97% center #fff; background-size: .65rem .35rem; }
+        .joinus-content dd .col-50 { padding-top: .7rem; }
+        .joinus-content dd label { font-size: .6rem; color: #666; }
+        .joinus-content dd input[type="checkbox"] { width: .75rem; height: .75rem; border: 1px solid #cecece; border-radius: .25px; background: #fff; margin-right: .5rem; vertical-align: middle; }
+        .fire-link { padding: 0 1.0rem; }
+        .fire-link dt { font-size: .5rem; color: #333; padding-bottom: .7rem; border-bottom: 1px solid #d8d8d8; }
+        .fire-link dd { font-size: .5rem; color: #999; margin: 0; }
+        .fire-link dd span { font-size: .5rem; color: #b4b4b4; }
+        .fire-copy { font-size: .5rem; color: #b4b4b4; padding: .5rem 1.5rem; background-color: #f4f4f4; }
+    </style>
 </head>
 <body>
 	<div class="page-group">
