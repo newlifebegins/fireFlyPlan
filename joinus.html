@@ -8,12 +8,12 @@
 	<script type='text/javascript' src='https://g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='https://g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 </head>
-<body>
+<body>  
 	<div class="page-group">
-        <!-- <div class="page"> -->
+        <div id="page-picker" class="page">
         	<!-- 标题栏 -->
 
-            <div class="content">
+            <div class="content">                
                 <header class="bar bar-nav fire-nav">
                     <a class="icon icon-left pull-left open-panel"></a>
                     <h1 class="title">加入我们</h1>
@@ -32,15 +32,29 @@
                         <dic class="joinus-content">
                             <h1>提交个人信息</h1>
                             <h2>「云趋科技萤火虫计划」</h2>
-                            <form action="" class="item-content">
-                                <dl class="item-inner">
+                            <form action="">
+                                <dl>
                                     <dt>您的姓名*</dt>
                                     <dd><input type="text" placeholder="请输入您的真实姓名"></dd>
                                     <dt>联系方式*</dt>
                                     <dd><input type="text" placeholder="请输入手机号"></dd>
                                     <dt class="item-title label">工作经验*</dt>
-                                    <dd class="item-input">
-                                        <input type="text" id="work-year">
+                                    <dd>
+                                        <div class="list-block">
+                                          <div class="item-content" style="padding-left: 0;">
+                                            <div class="item-inner" style="padding-right: 0;">
+                                              <div class="item-input">
+                                                <select>
+                                                  <option value="请选择工作年限">请选择工作年限</option>
+                                                  <option value="1-2年">1-2年</option>
+                                                  <option value="3-5年">3-5年</option>
+                                                  <option value="5年以上">5年以上</option>
+                                                </select>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!-- <input type="text" id="work-year"> -->
                                     <!-- <select>
                                         <option value="请选择工作年限">请选择工作年限</option>
                                         <option value="1-2年">1-2年</option>
@@ -50,8 +64,12 @@
                                     </dd>
                                     <dt class="item-title label">所在地址*</dt>
                                     <dd class="item-input">
-                                        <input type="text" id="work-address">
-                                    <!-- <select>
+                                        <!-- <input type="text" id="work-address"> -->
+                                        <div class="list-block">
+                                          <div class="item-content" style="padding-left: 0;">
+                                            <div class="item-inner" style="padding-right: 0;">
+                                              <div class="item-input">
+                                    <select>
                                         <option value="请选择您目前所在地">请选择您目前所在地</option>
                                         <option value="北京">北京</option>
                                         <option value="天津">天津</option>
@@ -89,7 +107,11 @@
                                         <option value="广西壮族自治区">广西壮族自治区</option>
                                         <option value="香港特别行政区">香港特别行政区</option>
                                         <option value="澳门特别行政区">澳门特别行政区</option>
-                                    </select> -->
+                                    </select>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
                                     </dd>
                                     <dt>专业技能*</dt>
                                     <dd>
@@ -134,7 +156,7 @@
             		</section>
             	</article>
             </div>
-        <!-- </div> -->
+        </div>
     </div>
     <script>
     	$(function(){
@@ -143,32 +165,32 @@
     			$(".hide-nav").toggle();
     		});
             // $.init();
-            $("#work-year").picker({
-              toolbarTemplate: '<header class="bar bar-nav">\
-              <button class="button button-link pull-left">按钮</button>\
-              <button class="button button-link pull-right close-picker">确定</button>\
-              <h1 class="title">请选择工作年限</h1>\
-              </header>',
-              cols: [
-                {
-                  textAlign: 'center',
-                  values: ['1-2年', '3-5年', '5年以上']
-                }
-              ]
-            });
-            $("#work-address").picker({
-              toolbarTemplate: '<header class="bar bar-nav">\
-              <button class="button button-link pull-left">按钮</button>\
-              <button class="button button-link pull-right close-picker">确定</button>\
-              <h1 class="title">请选择您目前所在地</h1>\
-              </header>',
-              cols: [
-                {
-                  textAlign: 'center',
-                  values: ['北京', '天津', '上海', '广州', '深圳', '重庆市', '黑龙江省', '辽宁省', '吉林省', '河北省', '河南省', '湖北省', '湖南省', '山东省', '山西省', '陕西省', '安徽省', '浙江省', '江苏省', '福建省', '广东省', '海南省', '四川省', '云南省', '贵州省', '青海省', '江西省', '台湾省', '内蒙古自治区', '宁夏回族自治区', '新疆维吾尔自治区', '西藏自治区', '广西壮族自治区', '香港特别行政区', '澳门特别行政区']
-                }
-              ]
-            });
+            // $("#work-year").picker({
+            //   toolbarTemplate: '<header class="bar bar-nav">\
+            //   <button class="button button-link pull-left">按钮</button>\
+            //   <button class="button button-link pull-right close-picker">确定</button>\
+            //   <h1 class="title">请选择工作年限</h1>\
+            //   </header>',
+            //   cols: [
+            //     {
+            //       textAlign: 'center',
+            //       values: ['1-2年', '3-5年', '5年以上']
+            //     }
+            //   ]
+            // });
+            // $("#work-address").picker({
+            //   toolbarTemplate: '<header class="bar bar-nav">\
+            //   <button class="button button-link pull-left">按钮</button>\
+            //   <button class="button button-link pull-right close-picker">确定</button>\
+            //   <h1 class="title">请选择您目前所在地</h1>\
+            //   </header>',
+            //   cols: [
+            //     {
+            //       textAlign: 'center',
+            //       values: ['北京', '天津', '上海', '广州', '深圳', '重庆市', '黑龙江省', '辽宁省', '吉林省', '河北省', '河南省', '湖北省', '湖南省', '山东省', '山西省', '陕西省', '安徽省', '浙江省', '江苏省', '福建省', '广东省', '海南省', '四川省', '云南省', '贵州省', '青海省', '江西省', '台湾省', '内蒙古自治区', '宁夏回族自治区', '新疆维吾尔自治区', '西藏自治区', '广西壮族自治区', '香港特别行政区', '澳门特别行政区']
+            //     }
+            //   ]
+            // });
     	});
     </script>
 </body>
