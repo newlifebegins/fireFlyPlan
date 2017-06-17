@@ -10,57 +10,107 @@
 </head>
 <body>
 	<div class="page-group">
-        <div class="page">
+        <!-- <div class="page"> -->
         	<!-- 标题栏 -->
-            <header class="bar bar-nav fire-nav">
-                <a class="icon icon-left pull-left open-panel"></a>
-                <h1 class="title">加入我们</h1>
-                <a class="icon nav-icon pull-right open-panel"><img src="images/menu.png" alt="菜单按钮"></a>                
-            </header>
-            <div class="hide-nav">
-            	<ul>
-            		<li class="on"><a href="plan.html">萤火虫计划</a></li>
-                    <li><a href="income.html">赚取收益</a></li>
-                    <li><a href="explain.html">技术说明</a></li>
-                    <li><a href="joinus.html">加入我们</a></li>
-            	</ul>
-            </div>
+
             <div class="content">
+                <header class="bar bar-nav fire-nav">
+                    <a class="icon icon-left pull-left open-panel"></a>
+                    <h1 class="title">加入我们</h1>
+                    <a class="icon nav-icon pull-right open-panel"><img src="images/menu.png" alt="菜单按钮"></a>
+                </header>
+                <div class="hide-nav">
+                    <ul>
+                        <li><a href="plan.html">萤火虫计划</a></li>
+                        <li><a href="income.html">赚取收益</a></li>
+                        <li><a href="explain.html">技术说明</a></li>
+                        <li class="on"><a href="joinus.html">加入我们</a></li>
+                    </ul>
+                </div>
             	<article class="fire-content">
             		<section>
                         <dic class="joinus-content">
                             <h1>提交个人信息</h1>
                             <h2>「云趋科技萤火虫计划」</h2>
-                            <form action="">
-                                <dl>
+                            <form action="" class="item-content">
+                                <dl class="item-inner">
                                     <dt>您的姓名*</dt>
                                     <dd><input type="text" placeholder="请输入您的真实姓名"></dd>
                                     <dt>联系方式*</dt>
                                     <dd><input type="text" placeholder="请输入手机号"></dd>
-                                    <dt>工作经验*</dt>
-                                    <dd><select name="" id="">
+                                    <dt class="item-title label">工作经验*</dt>
+                                    <dd class="item-input"><select>
                                         <option value="请选择工作年限">请选择工作年限</option>
-                                        <option value="请选择工作年限">请选择工作年限</option>
+                                        <option value="1-2年">1-2年</option>
+                                        <option value="3-5年">3-5年</option>
+                                        <option value="5年以上">5年以上</option>
                                     </select></dd>
-                                    <dt>所在地址*</dt>
-                                    <dd><select name="" id="">
+                                    <dt class="item-title label">所在地址*</dt>
+                                    <dd class="item-input"><select>
                                         <option value="请选择您目前所在地">请选择您目前所在地</option>
-                                        <option value="请选择您目前所在地">请选择您目前所在地</option>
+                                        <option value="北京">北京</option>
+                                        <option value="天津">天津</option>
+                                        <option value="上海">上海</option>
+                                        <option value="广州">广州</option>
+                                        <option value="深圳">深圳</option>
+                                        <option value="重庆市">重庆市</option>
+                                        <option value="黑龙江省">黑龙江省</option>
+                                        <option value="辽宁省">辽宁省</option>
+                                        <option value="吉林省">吉林省</option>
+                                        <option value="河北省">河北省</option>
+                                        <option value="河南省">河南省</option>
+                                        <option value="湖北省">湖北省</option>
+                                        <option value="湖南省">湖南省</option>
+                                        <option value="山东省">山东省</option>
+                                        <option value="山西省">山西省</option>
+                                        <option value="陕西省">陕西省</option>
+                                        <option value="安徽省">安徽省</option>
+                                        <option value="浙江省">浙江省</option>
+                                        <option value="江苏省">江苏省</option>
+                                        <option value="福建省">福建省</option>
+                                        <option value="广东省">广东省</option>
+                                        <option value="海南省">海南省</option>
+                                        <option value="四川省">四川省</option>
+                                        <option value="云南省">云南省</option>
+                                        <option value="贵州省">贵州省</option>
+                                        <option value="青海省">青海省</option>
+                                        <option value="甘肃省"> 甘肃省</option>
+                                        <option value="江西省"> 江西省</option>
+                                        <option value="台湾省"> 台湾省</option>
+                                        <option value="内蒙古自治区">内蒙古自治区</option>
+                                        <option value="宁夏回族自治区">宁夏回族自治区</option>
+                                        <option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
+                                        <option value="西藏自治区">西藏自治区</option>
+                                        <option value="广西壮族自治区">广西壮族自治区</option>
+                                        <option value="香港特别行政区">香港特别行政区</option>
+                                        <option value="澳门特别行政区">澳门特别行政区</option>
                                     </select></dd>
                                     <dt>专业技能*</dt>
                                     <dd>
-                                        <input type="checkbox"><label for="">UI设计</label>
-                                        <input type="checkbox"><label for="">Android开发</label>
-                                        <input type="checkbox"><label for="">IOS开发</label>
-                                        <input type="checkbox"><label for="">H5开发</label>
-                                        <input type="checkbox"><label for="">PHP开发</label>
+                                        <dic class="row">
+                                            <div class="col-50">
+                                                <label for=""><input type="checkbox">UI设计</label>
+                                            </div>
+                                            <div class="col-50">
+                                                <label for=""><input type="checkbox">Android开发</label>
+                                            </div>
+                                            <div class="col-50">
+                                                <label for=""><input type="checkbox">IOS开发</label>
+                                            </div>
+                                            <div class="col-50">
+                                                <label for=""><input type="checkbox">H5开发</label>
+                                            </div>
+                                            <div class="col-50">
+                                                <label for=""><input type="checkbox">PHP开发</label>
+                                            </div>
+                                        </dic>
                                     </dd>
                                 </dl>
-                                <div class="fire-btn">
+                                <div class="fire-btn" style="clear: both;">
                                     <a href="#">提交信息</a>
-                                </div> 
+                                </div>
                             </form>
-                        </dic>      
+                        </dic>
                     </section>
             		<section>
             			<div class="fire-link">
@@ -73,18 +123,20 @@
             					</dd>
             				</dl>
             			</div>
-            			<div class="fire-copy">Copyright @ 2015-2018 云趋科技 - 移动互联网行业解决方案提供商 
+            			<div class="fire-copy">Copyright @ 2015-2018 云趋科技 - 移动互联网行业解决方案提供商
 版权所有   沪ICP备14023115号-1</div>
             		</section>
             	</article>
-            </div>            
-        </div>
+            </div>
+        <!-- </div> -->
     </div>
     <script>
     	$(function(){
+
     		$(document).on("click",".nav-icon",function(){
     			$(".hide-nav").toggle();
-    		})
+    		});
+            // $.init();
     	});
     </script>
 </body>
